@@ -44,7 +44,7 @@ Considerations
 2. Korean utilizes case markers to mark case while English does syntactically
 
 ## Procedure
-1. Install pyjsgf to construct JSGF grammars, convert them into strings or files, and find grammar rules that match speech strings.
+1. Install **pyjsgf** to construct JSGF grammars, convert them into strings or files, and find grammar rules that match speech strings.
 Type the following in Terminal.
 ```
 $ pip install pyjsgf
