@@ -1,0 +1,36 @@
+#JSGF V1.0 utf-8 en;
+grammar music_play;
+
+public <music_play> =
+	(<music_command> | <music_intent>) <music_object>;
+
+// main rules
+<music_command> =
+	[can you] (play [me]| put on | put);
+<music_intent> =
+	[i] (want | (would) like) to (listen to | hear);
+<music_object> =
+	[<album> by] <artist> |
+	[<artist> on] |
+	<album> |
+	<song> |
+	<genre> [music];
+
+// music objects
+<artist> =
+	the beatles |
+	radiohead |
+	lady gaga |
+	pink floyd; 
+<song> =
+	comfortably_numb |
+	paranoid android |
+	let it be|
+	hey jude;
+<genre> =
+	jazz |
+	rock |
+	pop |
+	metal;
+<album> =
+	ummagumma;
