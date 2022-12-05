@@ -1,0 +1,38 @@
+#JSGF V1.0 utf-8 ko;
+
+grammar music_play_kor;
+
+public <music_play_kor> =
+    <music_object_kor> (<music_intent_kor> [<music_command_kor>] | <music_command_kor>);
+
+<music_intent_kor> = 듣고 싶 (은데 | 어);
+
+<music_command_kor> = 틀어 줄 수 (있니 | 있어);
+
+<music_object_kor> =
+    <genre_kor> [(음악 | 노래)] |
+    <artist_kor> [의] (<album_kor> | <song_kor>) |
+    <song_kor> |
+    <artist_kor>;
+    
+
+<album_kor> =
+    우마구마;
+
+<genre_kor> =
+    재즈 |
+    락 |
+    팝 |
+    메탈 ;
+
+<artist_kor> =
+    비틀즈 |
+    라디오헤드 |
+    핑크플로이드 |
+    레이디가가 ;
+
+<song_kor> =
+    컨포터블리 넘 |
+    파라노이드 안드로이드 |
+    렛잇비 |
+    헤이 주드 ;
