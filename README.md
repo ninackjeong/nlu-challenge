@@ -29,3 +29,15 @@ This grammar creates utterances that express the desire or intent to play music.
 ```
 
 ## Task 1: Extend the English Grammar
+Extend the English JSGF development grammar ("jsgf_eng_basic_ruls.txt" under "eng") so that it can cover at least the following utterances.
+
+```
+[i want to listen to]<unk> [jazz]<genre> [music]<unk>
+[play me]<unk> [ummagumma]<album> [by]<unk> [pink floyd]<artist>
+[put]<unk> [lady gaga]<artist> [on]<unk>
+```
+
+## Task 2: Localize the JSGF grammar in your language (Korean, here)
+Considerations
+1. Korean is a SOV language
+2. Korean utilizes case markers to mark case while English does syntactically
