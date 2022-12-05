@@ -38,6 +38,7 @@ Extend the English JSGF development grammar ("jsgf_eng_basic_ruls.txt" under "en
 ```
 
 ## Task 2: Localize the JSGF grammar in your language (Korean, here)
+Localize the extended English grammar from the above task in Korean.
 Considerations
 1. Korean is a SOV language
 2. Korean utilizes case markers to mark case while English does syntactically
