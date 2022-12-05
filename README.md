@@ -1,6 +1,6 @@
 # A Natural Language Understanding Task: JSGF Development using Python
 
-## The following is a Context Free Grammar, written using the Java Speech Grammar Format (JSGF)
+The following is a Context Free Grammar, written using the Java Speech Grammar Format (JSGF)
 
 ```
  #JSGF V1.0 utf-8 en;
@@ -21,7 +21,7 @@
 	 let it be |
 	 hey jude;
 ```
-## This grammar creates utterances that express the desire or intent to play music. Then, they are used as training data for statistical models for intent recognition. This grammar can generate utterances using a custom parser as follows:
+This grammar creates utterances that express the desire or intent to play music. Then, they are used as training data for statistical models for intent recognition. This grammar can generate utterances using a custom parser as follows:
 
 ```
 [can you play]<unk> [the beatles]<artist>
