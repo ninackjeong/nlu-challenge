@@ -49,7 +49,7 @@ Type the following in Terminal.
 ```
 $ pip install pyjsgf
 ```
-If you are installing for developing pyjsgf, clone or download the respository, move to the root directory, and run the following.
+If you are installing for developing pyjsgf, clone or download the repository, move to the root directory, and run the following.
 ```
 $ pip install -e .
 ```
