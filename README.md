@@ -1,4 +1,4 @@
-# A Natural Language Understanding (NLU) Task: the Jave Speech Grammar Format (JSGF) Development using Python
+# A Natural Language Understanding (NLU) Task: the Java Speech Grammar Format (JSGF) Development using Python
 
 The following is a Context Free Grammar, written using JSGF
 
