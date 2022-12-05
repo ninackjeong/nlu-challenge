@@ -51,7 +51,7 @@ $ pip install pyjsgf
 ```
 If you are installing for devleoping pyjsgf, clone or download the respository, move to the root directory, and run the following.
 ```
-$ pip insstall -e .
+$ pip install -e .
 ```
 2. Prepare the example utterances in Korean
 "kor_test_utters.txt" under "kor": a Korean version of the English test utterances, translated by me
